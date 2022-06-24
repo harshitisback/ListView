@@ -38,3 +38,38 @@ ScreenShot Demo
 ---
 ![image](https://user-images.githubusercontent.com/77660268/175664384-2580b010-3f2d-4884-9f10-59e5f0fd9cfb.png)
 
+
+
+Pojo Class 
+---
+```java
+package com.example.listview;
+
+public class CustomPojo {
+    int images;
+    String langName;
+
+    public CustomPojo(int images, String langName) {
+        this.images = images;
+        this.langName = langName;
+    }
+
+    public int getImages() {
+        return images;
+    }
+
+    public void setImages(int images) {
+        this.images = images;
+    }
+
+    public String getLangName() {
+        return langName;
+    }
+
+    public void setLangName(String langName) {
+        this.langName = langName;
+    }
+}
+
+```
+
