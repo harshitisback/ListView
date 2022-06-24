@@ -43,9 +43,7 @@ ScreenShot Demo
 Pojo Class 
 ---
 ```java
-package com.example.listview;
-
-public class CustomPojo {
+public class CustomPojo extends BaseAdapter {
     int images;
     String langName;
 
@@ -68,6 +66,26 @@ public class CustomPojo {
 
     public void setLangName(String langName) {
         this.langName = langName;
+    }
+
+    @Override
+    public int getCount() {
+        return 0;
+    }
+
+    @Override
+    public Object getItem(int i) {
+        return null;
+    }
+
+    @Override
+    public long getItemId(int i) {
+        return 0;
+    }
+
+    @Override
+    public View getView(int i, View view, ViewGroup viewGroup) {
+        return null;
     }
 }
 
